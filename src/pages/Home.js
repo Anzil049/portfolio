@@ -1,13 +1,15 @@
+import "./Home.css";
+
 function Home() {
   return (
-    <>
-      <h1>Anzil K</h1>
+    <section className="home">
+      <h1>Hi, I'm Anzil 👋</h1>
       <h3>MERN Stack Developer</h3>
       <p>
-        Passionate about building scalable, user-friendly web applications
-        using modern technologies.
+        I build responsive, scalable web applications using React,
+        Node.js, Express, and MongoDB.
       </p>
-    </>
+    </section>
   );
 }
 
